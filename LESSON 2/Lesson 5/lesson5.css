@@ -1,0 +1,83 @@
+.menuGroup {
+    position: relative;
+    display: inline-block;
+}
+
+/* Logo 3 dấu gạch */
+.menuGroup img {
+    width: 50px;
+    cursor: pointer;
+}
+
+/* Ban đầu ẩn menu */
+.List.menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+
+    width: 200px;
+    padding: 15px;
+
+    background: white;
+    list-style: none;
+}
+
+/* Đưa chuột vào logo → hiện menu */
+.menuGroup:hover .List.menu {
+    display: block;
+}
+
+/* Các chữ trong menu */
+.List.menu li {
+    padding: 12px;
+    cursor: pointer;
+}
+
+/* Hover từng chữ */
+.List.menu li:hover {
+    color: #5D50C6;
+}
+.List.menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 220px;
+    padding: 15px 10px;
+    margin: 0;
+    background: white;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.mindx1{
+    width: 140px;
+    height: 200px;
+    background-color: red;
+    position:absolute;
+   bottom: 70px;
+   right: 90px;
+   z-index: 3;
+   overflow: hidden;
+
+
+
+}
+.mindx2{
+    width: 200px;
+    height: 200px;
+    background-color: #5D50C6;
+     position:absolute;
+     top: 300px;
+     right:350px;
+     
+}
+.mindx3{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+     position:absolute;
+     right: 100px;
+     top: 150px;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.header div.item{
+    height: fit-content;
+}
+div.header {
+    padding: 40px 80px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.header ul {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+}
+div.header ul li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: dashed;
+}
